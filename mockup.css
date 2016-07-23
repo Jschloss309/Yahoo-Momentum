@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+}
+
+  /*----------------------------------------*/
+  /*-----------------HEADER-----------------*/
+  /*----------------------------------------*/
+p {
+    display: inline-block;
+}
+
+li {
+    text-align: center;
+    list-style-type: none;
+    display: inline;
+  }
+
+  #header {
+    float:right;
+    margin: 0;
+    padding: 0;
+  }
+
+  #profile_pic{
+    margin: 8px;
+    border-radius: 10%;
+    float: right;
+  }
+  #logo {
+    float:left;
+  }
+  div#motto {
+    display:inline-block;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2em;
+    color: grey;
+  }
+  div#msg {
+    display:inline-block;
+    float: right;
+    padding-top:1.5em;
+  }
+  /*----------------------------------------*/
+  /*--------------MAIN SECTION--------------*/
+  /*----------------------------------------*/
+
+  .main-section {
+    height: 100vh;
+    background-image: url("http://images.boomsbeat.com/data/images/full/14535/whats-new-in-greater-fort-lauderdale-jpg.jpg");
+    background-size: cover;
+    text-align:center;
+    color: white;
+    margin-top: 1.3em;
+  }
+
+  .main-section li {
+        padding: 0.5em;
+  }
+
+  #info {
+    padding: 1em;
+    margin-top: 9px;
+    text-align: right;
+    border-bottom: 1px solid white;
+  }
+  #title {
+    padding: 1em;
+    font-size: 5em;
+    text-shadow: 1px 1px 1px black;
+  }
